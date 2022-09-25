@@ -1,0 +1,39 @@
+.footer__container {
+  width: 100%;
+  padding: 1.2em 0;
+  background: #13183f;
+  margin-top: 4em;
+}
+
+.footer__content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.footer__container img {
+  width: 89px;
+  cursor: pointer;
+}
+
+.footer__container button {
+  color: white;
+  background: rgb(72, 81, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(72, 81, 255, 1) 0%,
+    rgba(240, 42, 166, 1) 100%
+  );
+  border: none;
+  padding: 0.8em 1.5rem;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 1400px) {
+  .footer__content-container {
+    max-width: 80%;
+  }
+}

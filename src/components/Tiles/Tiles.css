@@ -1,0 +1,41 @@
+.tiles__container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.tiles__first-tile {
+  background: rgb(240, 42, 166);
+  background: linear-gradient(
+    0deg,
+    rgba(240, 42, 166, 1) 0%,
+    rgba(255, 111, 72, 1) 100%
+  );
+  color: white;
+  padding: 0.5em 1.5em;
+  border-radius: 10px;
+}
+
+.tiles__first-tile h2 {
+  font-weight: 800;
+}
+
+@media only screen and (min-width: 768px) {
+  .tiles__container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -5em;
+  }
+
+  .tiles__first-tile {
+    width: 40%;
+    margin-top: 3em;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .tiles__first-tile {
+    width: 29%;
+  }
+}

@@ -1,0 +1,34 @@
+.header__container {
+  width: 100%;
+  padding: 1.2em 0;
+  position: relative;
+  z-index: 1;
+}
+
+.header__content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.header__container img {
+  width: 89px;
+  cursor: pointer;
+}
+
+.header__container button {
+  color: white;
+  background: #12183f;
+  border: none;
+  padding: 0.8em 1.5rem;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 1400px) {
+  .header__content-container {
+    max-width: 80%;
+  }
+}

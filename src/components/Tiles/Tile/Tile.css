@@ -1,0 +1,34 @@
+.tile__container {
+  margin-top: 3em;
+  border-radius: 10px;
+  padding: 1em 1.5em 2em;
+  box-shadow: 3px 3px 25px 3px rgba(0, 0, 0, 0.05);
+}
+
+.tile__container img {
+  margin-top: -40px;
+}
+
+.tile__title {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.tile__container a {
+  text-decoration: none;
+  color: #f74780;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .tile__container {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .tile__container {
+    width: 29%;
+  }
+}

@@ -1,0 +1,23 @@
+h1 {
+  font-weight: 800;
+  color: #13183f;
+  font-size: 2.5rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  transition: opacity 0.2s ease-out;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+.pgraph-main {
+  color: #83869a;
+  line-height: 1.5rem;
+}
